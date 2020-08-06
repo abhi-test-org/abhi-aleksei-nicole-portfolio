@@ -41,7 +41,6 @@ export const query = graphql`
         ...GatsbyDatoCmsSeoMetaTags
       }
       title
-      excerpt
       gallery {
         fluid(maxWidth: 200, imgixParams: { fm: "jpg", auto: "compress" }) {
           src

@@ -14,6 +14,7 @@ const About = ({ data: { about } }) => (
         <div className="sheet__gallery">
           <Img fluid={about.photo.fluid} />
         </div>
+  hi
         <div
           className="sheet__body"
           dangerouslySetInnerHTML={{
